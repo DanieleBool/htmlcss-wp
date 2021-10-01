@@ -1,6 +1,7 @@
 /* commons */
 
 * {
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +9,7 @@
 
 body{
     background-color: white;
-    margin: 2% 0%;
+    margin: 0%;
 }
 
 .container{
@@ -28,10 +29,24 @@ body{
 }
 
 .logo{
-    border-right: 1px solid gray;
+    border-right: 1px solid lightgray;
     padding-right: 2%;
-    width: 25%;
+    width: 180px;
 }
+
+.lista ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 6px;
+    padding: 3% 0;
+    vertical-align: middle;
+}
+
+.lista a{
+    text-decoration: none;
+    color: gray;
+}
+
 /* inizio main */
 
 .clearfix::after{
@@ -71,10 +86,6 @@ footer{
 }
 
 /* debugs */
-
-.debug .header-top {
-	background-color: rgb(229, 121, 230);
-}
 
 .debug .header-bottom {
 	background-color: rgb(225, 214, 122);
