@@ -20,12 +20,12 @@ body{
 /* header */
 
 .header-top{
-    height: 200px;
+    height: 130px;
 }
 
 .header-bottom{
     margin: 3% 0%;
-    height: 600px;
+    height: 450px;
 }
 
 .logo{
@@ -47,6 +47,13 @@ body{
     color: gray;
 }
 
+.header-bottom{
+    background-image: url('../img/banner.jpg');
+    background-repeat: none;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 500px rgba(0,0,0,.2);
+}
 /* inizio main */
 
 .clearfix::after{
