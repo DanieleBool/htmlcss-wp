@@ -1,0 +1,106 @@
+/* commons */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 2% 0%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header-top{
+    height: 200px;
+}
+
+.header-bottom{
+    margin: 3% 0%;
+    height: 600px;
+}
+
+/* inizio main */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cont1, .cont2, .cont3{
+    float: left;
+    margin-bottom: 2%;
+}
+
+.cont0{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.cont1{
+    width: 20%;
+}
+
+.cont2{
+    width: 56%;
+    margin: 0% 2%;
+}
+
+.cont3{
+    width: 20%;
+}
+
+/* footer */
+
+footer{
+    height: 100px;
+    margin-top: 1%;
+}
+
+/* debugs */
+
+.debug .header-top {
+	background-color: rgb(229, 121, 230);
+}
+
+.debug .header-bottom {
+	background-color: rgb(225, 214, 122);
+}
+
+
+main.debug{
+    background-color: rgb(1, 134, 253);
+}
+
+.debug .cont0{
+    background-color: rgb(171, 207, 231);
+    height: 100px;
+}
+
+.debug .cont1{
+    background-color: rgb(171, 207, 231);
+    height: 700px;
+}
+
+.debug .cont2{
+    background-color: rgb(171, 207, 231);
+    height: 700px;
+}
+
+.debug .cont3{
+    background-color: rgb(171, 207, 231);
+    height: 700px;
+}
+
+footer.debug{
+    background-color: rgb(136, 1, 254);
+}
+
