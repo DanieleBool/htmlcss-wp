@@ -27,6 +27,11 @@ body{
     height: 600px;
 }
 
+.logo{
+    border-right: 1px solid gray;
+    padding-right: 2%;
+    width: 25%;
+}
 /* inizio main */
 
 .clearfix::after{
